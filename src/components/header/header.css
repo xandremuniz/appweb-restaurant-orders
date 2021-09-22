@@ -1,0 +1,46 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.header .logo {
+    display:block;
+    width: 150px;
+    height: 50px;
+    background-image: url("./logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.header .title {
+    font-size: x-large;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 8px;
+    display: block;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.user {
+    float: right;
+    margin-right: 8px;
+}

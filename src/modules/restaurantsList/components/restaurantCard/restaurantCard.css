@@ -1,0 +1,69 @@
+.restaurant-card {
+    padding: 8px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 8px;
+    transition: 0.5s ease all;
+    animation: 0.7s show-order;
+}
+
+.restaurant-carousel {
+
+}
+
+.restaurant-form {
+    border: 1px solid #d7d7d7;
+    display: flex;
+}
+
+.restaurant-menu {
+    width: 60%;
+    border-right: 1px solid #d7d7d7;
+    display: flex;
+}
+
+.restaurant-menu ul {
+    margin: 0;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.restaurant-menu li {
+
+}
+
+.restaurant-menu-checkbox {
+    margin-left: 0;
+}
+
+.restaurant-menu-dish {
+
+}
+
+.restaurant-info {
+    width: 30%;
+}
+
+.restaurant-info span {
+    display:block;
+}
+
+.restaurant-button-submit {
+
+}
+
+.restaurant-card.loading{
+    /* margin-top: 1000px;
+    opacity: 0; */
+}
+
+@keyframes show-order {
+	from {
+		transform: translateY(200%);
+        opacity: 0;
+		
+	}
+	to {
+		transform: translateY(0);
+        opacity: 1;
+	}
+}
